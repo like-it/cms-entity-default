@@ -1,5 +1,5 @@
 <?php
-namespace Entity\ManyToMany\Application;
+namespace LikeIt\Cms\Entity\ManyToMany\Application;
 use Doctrine\ORM\Mapping as ORM;
 use Entity\Application;
 use Entity\User;

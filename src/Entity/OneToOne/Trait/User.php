@@ -1,5 +1,5 @@
 <?php
-namespace Entity\OneToOne;
+namespace LikeIt\Cms\Entity\OneToOne;
 use Doctrine\ORM\Mapping as ORM;
 //use Entity\Profile as Entity;
 

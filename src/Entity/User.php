@@ -1,6 +1,6 @@
 <?php
 
-namespace Entity;
+namespace LikeIt\Cms\Entity;
 
 use dateTime;
 use R3m\Io\Module\Parse;
@@ -10,7 +10,7 @@ use R3m\Io\App;
 use R3m\Io\Module\Database;
 use R3m\Io\Module\Core;
 
-use Host\Backend\Universeorange\Com\Jwt\Model\Jwt;
+#use Host\Backend\Universeorange\Com\Jwt\Model\Jwt;
 
 use Lcobucci\JWT\Configuration;
 use Lcobucci\JWT\Signer;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Entity;
+namespace LikeIt\Cms\Entity;
 
 use Doctrine\Common\Collections\ArrayCollection;
 use Exception;
