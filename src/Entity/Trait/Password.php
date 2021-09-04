@@ -1,5 +1,5 @@
 <?php
-namespace Entity;
+namespace LikeIt\Cms\Entity;
 use Doctrine\ORM\Mapping as ORM;
 trait Password {
 

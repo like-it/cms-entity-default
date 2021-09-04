@@ -1,6 +1,6 @@
 <?php
 
-namespace Entity;
+namespace LikeIt\Cms\Entity;
 
 use R3m\Io\App;
 

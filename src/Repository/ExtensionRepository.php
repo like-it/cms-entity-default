@@ -1,7 +1,7 @@
 <?php
-namespace Repository;
+namespace LikeIt\Cms\Repository;
 
-use Host\Backend\Universeorange\Com\User\Entity\Extension;
+use LikeIt\Cms\Entity\Extension;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 
@@ -15,7 +15,7 @@ class ParameterRepository extends ServiceEntityRepository
 {
     public function __construct(ManagerRegistry $registry)
     {
-        parent::__construct($registry, Extension\::class);
+        parent::__construct($registry, Extension::class);
     }
 
 }
