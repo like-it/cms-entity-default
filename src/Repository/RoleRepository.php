@@ -1,7 +1,7 @@
 <?php
-namespace Repository;
+namespace LikeIt\Cms\Repository;
 
-use Host\Backend\Universeorange\Com\User\Entity\Role;
+use LikeIt\Cms\Entity\Role;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 
