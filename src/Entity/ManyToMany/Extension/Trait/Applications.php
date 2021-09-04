@@ -1,5 +1,5 @@
 <?php
-namespace Entity\ManyToMany\Extension\Trait;
+namespace LikeIt\Cms\Entity\Entity\ManyToMany\Extension\Trait;
 use Doctrine\ORM\Mapping as ORM;
 
 use LikeIt\Cms\Entity\Application;

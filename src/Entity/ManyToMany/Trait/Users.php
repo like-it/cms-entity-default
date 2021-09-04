@@ -1,5 +1,5 @@
 <?php
-namespace Entity\ManyToMany\Trait;
+namespace LikeIt\Cms\Entity\Entity\ManyToMany\Trait;
 use Doctrine\ORM\Mapping as ORM;
 //use Host\Backend\Universeorange\Com\User\Entity\Role;
 

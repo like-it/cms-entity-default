@@ -1,5 +1,5 @@
 <?php
-namespace Entity\ManyToMany\User\Trait;
+namespace LikeIt\Cms\Entity\Entity\ManyToMany\User\Trait;
 use Doctrine\ORM\Mapping as ORM;
 use LikeIt\Cms\Entity\Parameter;
 
