@@ -7,7 +7,7 @@ use Exception;
 use R3m\Io\App;
 use R3m\Io\Module\Database;
 use Doctrine\ORM\Mapping as ORM;
-use Entity\User;
+use LikeIt\Cms\Entity\User;
 
 /**
  * @ORM\Entity
@@ -22,13 +22,13 @@ class Application {
         FROM ' . __CLASS__ . ' r 
         WHERE r.name like :name';
 
-    use Id;
-    use Unique\Uuid;
-    use Name;
-    use Url;
-    use IconUrl;
-    use ManyToMany\Application\Users;
-    use ManyToMany\Application\Extensions;
+    use Trait\Id;
+    use Unique\Trait\Uuid;
+    use Trait\Name;
+    use Trait\Url;
+    use Trait\IconUrl;
+    use ManyToMany\Application\Trait\Users;
+    use ManyToMany\Application\Trait\Extensions;
 
     public function __construct()
     {

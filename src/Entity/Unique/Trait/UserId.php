@@ -1,5 +1,5 @@
 <?php
-namespace LikeIt\Cms\Entity\Unique;
+namespace LikeIt\Cms\Entity\Unique\Trait;
 use Doctrine\ORM\Mapping as ORM;
 trait UserId {
 

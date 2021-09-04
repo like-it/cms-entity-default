@@ -1,7 +1,7 @@
 <?php
-namespace Entity\ManyToMany;
+namespace Entity\ManyToMany\Trait;
 use Doctrine\ORM\Mapping as ORM;
-use Entity\Role;
+use LikeIt\Cms\Entity\Role;
 
 trait Roles {
 

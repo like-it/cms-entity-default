@@ -13,9 +13,9 @@ use Doctrine\Common\Collections\ArrayCollection;
  * @ORM\Table(name="extension")
  */
 class Extension {
-	use Id;
-    use Name;
-    use ManyToMany\Extension\Applications;
+	use Trait\Id;
+    use Trait\Name;
+    use ManyToMany\Extension\Trait\Applications;
 
     public function __construct()
     {

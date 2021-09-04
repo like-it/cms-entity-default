@@ -1,5 +1,5 @@
 <?php
-namespace LikeIt\Cms\Entity;
+namespace LikeIt\Cms\Entity\Trait;
 use Doctrine\ORM\Mapping as ORM;
 trait RefreshToken {
 

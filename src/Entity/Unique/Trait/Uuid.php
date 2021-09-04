@@ -1,5 +1,5 @@
 <?php
-namespace LikeIt\Cms\Entity\Unique;
+namespace LikeIt\Cms\Entity\Unique\Trait;
 use R3m\Io\Module\Core;
 use Doctrine\ORM\Mapping as ORM;
 

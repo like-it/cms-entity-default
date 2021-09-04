@@ -1,8 +1,8 @@
 <?php
-namespace Entity\ManyToMany\Parameter;
+namespace Entity\ManyToMany\Parameter\Trait;
 use Doctrine\ORM\Mapping as ORM;
 //use Host\Backend\Universeorange\Com\User\Entity\Parameter;
-use Entity\User;
+use LikeIt\Cms\Entity\User;
 
 trait Users {
 

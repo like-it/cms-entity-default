@@ -56,20 +56,20 @@ class User {
         AND u.isActive = 1 
         AND u.isDeleted IS NULL';
 
-    use Id;
-    use Unique\Uuid;
-    use Unique\Email;
-    use Unique\Dir;
-    use Password;
-    use RefreshToken;
-    use KeyId;
-    use IsActive;
-    use IsDeleted;
+    use Trait\Id;
+    use Unique\Trait\Uuid;
+    use Unique\Trait\Email;
+    use Unique\Trait\Dir;
+    use Trait\Password;
+    use Trait\RefreshToken;
+    use Trait\KeyId;
+    use Trait\IsActive;
+    use Trait\IsDeleted;
 
-    use OneToOne\Profile;
-    use ManyToMany\Parameters;
-    use ManyToMany\Roles;
-    use ManyToMany\Applications;
+    use OneToOne\Trait\Profile;
+    use ManyToMany\Trait\Parameters;
+    use ManyToMany\Trait\Roles;
+    use ManyToMany\Trait\Applications;
 
     public function __construct(){
         $this->parameters = new ArrayCollection();

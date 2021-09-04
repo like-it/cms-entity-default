@@ -19,11 +19,11 @@ class Logger {
 
     const LOGIN_PERIOD = '-15 Minutes';
 
-    use Id;
-    use IpAddress;
-    use DateTime;
-    use UserId;
-    use Status;
+    use Trait\Id;
+    use Trait\IpAddress;
+    use Trait\DateTime;
+    use Trait\UserId;
+    use Trait\Status;
 
     public static function count(App $object, User $user=null, $status=null){
         if(

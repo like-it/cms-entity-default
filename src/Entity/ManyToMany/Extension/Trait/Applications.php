@@ -1,9 +1,9 @@
 <?php
-namespace Entity\ManyToMany\Extension;
+namespace Entity\ManyToMany\Extension\Trait;
 use Doctrine\ORM\Mapping as ORM;
 
-use Entity\Application;
-use Entity\Extension;
+use LikeIt\Cms\Entity\Application;
+use LikeIt\Cms\Entity\Extension;
 trait Applications
 {
 

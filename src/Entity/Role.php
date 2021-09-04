@@ -23,10 +23,10 @@ class Role {
         FROM ' . __CLASS__ . ' r 
         WHERE r.name like :name';
 
-    use Id;
-    use Unique\Name;
+    use Trait\Id;
+    use Unique\Trait\Name;
 
-    use ManyToMany\Users;
+    use ManyToMany\Trait\Users;
 
 
     public function __construct()

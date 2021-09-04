@@ -12,10 +12,10 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class Profile {
 
-    use Id;
-    use Firstname;
-    use Surname;
-    use OneToOne\User;
+    use Trait\Id;
+    use Trait\Firstname;
+    use Trait\Surname;
+    use OneToOne\Trait\User;
 
     public function __construct(){
     }

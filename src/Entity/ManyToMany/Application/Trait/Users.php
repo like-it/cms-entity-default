@@ -1,8 +1,8 @@
 <?php
-namespace LikeIt\Cms\Entity\ManyToMany\Application;
+namespace LikeIt\Cms\Entity\ManyToMany\Application\Trait;
 use Doctrine\ORM\Mapping as ORM;
-use Entity\Application;
-use Entity\User;
+use LikeIt\Cms\Entity\Application;
+use LikeIt\Cms\Entity\User;
 trait Users {
 
     /**

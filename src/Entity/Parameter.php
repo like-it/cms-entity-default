@@ -13,10 +13,10 @@ use Doctrine\Common\Collections\ArrayCollection;
  * @ORM\Table(name="parameter")
  */
 class Parameter {
-	use Id;
-    use Name;
-    use Encrypted\Body;
-    use ManyToMany\Parameter\Users;
+	use Trait\Id;
+    use Trait\Name;
+    use Encrypted\Trait\Body;
+    use ManyToMany\Parameter\Trait\Users;
 
     protected $object;
 

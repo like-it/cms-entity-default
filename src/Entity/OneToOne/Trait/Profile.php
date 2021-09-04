@@ -1,7 +1,7 @@
 <?php
-namespace LikeIt\Cms\Entity\OneToOne;
+namespace LikeIt\Cms\Entity\OneToOne\Trait;
 use Doctrine\ORM\Mapping as ORM;
-use Entity\Profile as Entity;
+use LikeIt\Cms\Entity\Profile as Entity;
 
 trait Profile {
 

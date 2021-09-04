@@ -1,5 +1,5 @@
 <?php
-namespace LikeIt\Cms\Entity\Encrypted;
+namespace LikeIt\Cms\Entity\Encrypted\Trait;
 use Exception;
 use Defuse\Crypto\Exception\BadFormatException;
 use Defuse\Crypto\Exception\EnvironmentIsBrokenException;
