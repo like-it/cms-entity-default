@@ -38,8 +38,8 @@ class Security {
         }
         if($user){
             foreach($options['role'] as $role){
-                d($role);
                 $role = Role::find($object, ['name' => $role]);
+                d($role);
                 if($role){
                     if($user->hasRole($role)){
                         return true;
