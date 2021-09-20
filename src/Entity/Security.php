@@ -8,6 +8,7 @@ class Security {
 
     public static function is_granted(App $object, $options=[]) : bool
     {
+        dd($options);
         if(!array_key_exists('user', $options)) {
             return false;
         }
