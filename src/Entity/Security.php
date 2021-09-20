@@ -43,11 +43,9 @@ class Security {
                     if($user->hasRole($role)){
                         return true;
                     }
-                } else {
-                    return false;
                 }
             }
-            return true;
+            return false;
         }
     }
 }
