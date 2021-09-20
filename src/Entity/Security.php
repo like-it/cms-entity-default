@@ -41,7 +41,7 @@ class Security {
                 $role = Role::find($object, ['name' => $role]);
                 if($role){
                     if($user->hasRole($role)){
-                        continue;
+                        return true;
                     }
                 } else {
                     return false;
