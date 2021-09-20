@@ -27,7 +27,6 @@ class Security {
             $options['role'] = [ $options['role'] ];
         }
         $user = User::find($object, ['uuid' => $options['user']['uuid']]);
-        dd($user);
         if(!$user){
             return false;
         }
