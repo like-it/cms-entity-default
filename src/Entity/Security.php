@@ -36,18 +36,17 @@ class Security {
         if($user->getIsDeleted()){
             return false;
         }
-        if($user){
-            foreach($options['role'] as $role){
-                $role = Role::find($object, ['name' => $role]);
-                if($role){
-                    d($user->getRoles());
-                    dd($user->hasRole($role));
-                    if($user->hasRole($role)){
-                        return true;
-                    }
+        $user->getRoles()
+        foreach($options['role'] as $role){
+            $role = Role::find($object, ['name' => $role]);
+            if($role){
+                dd($user->hasRole($role));
+                if($user->hasRole($role)){
+                    return true;
                 }
             }
-            return false;
         }
+        return false;
+
     }
 }
